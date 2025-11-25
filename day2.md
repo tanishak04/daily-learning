@@ -1,3 +1,5 @@
+````md
+```python
 name= "tanishak mohan katiyar \n new \"line\""
 a=name[-1:-5:-1]
 b=len(name)
