@@ -1,3 +1,5 @@
+````md
+```python
 a= int(input("enter number 1"))
 b=int(input("enter the 2nd number"))
 c=a+b
