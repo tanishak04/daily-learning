@@ -1,0 +1,13 @@
+   ````md
+```python
+marks={
+    "a":12,
+    "b":346,
+    "c":3496
+}
+print(marks)
+marks.update({"a":43})
+print(marks.get("a"))
+print(marks["a"])
+a1=marks.popitem()
+print(type(a1))
