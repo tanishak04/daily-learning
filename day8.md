@@ -1,0 +1,9 @@
+   ````md
+```python
+s={1,2,3,4,5,6,6,6,7}
+s1={1,7,4,9,77,88,45}
+print(s.union(s1))
+print(s.intersection(s1))
+print(s-s1)
+print(s1-s)
+print(s+s1)
