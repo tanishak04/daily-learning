@@ -31,3 +31,18 @@ def sum1(n):
     return n
 n=int(input("enetr the number "))
 print(f"the sum of first {n} natural number is, {sum1(n)}")
+
+a = int(input("enter the number "))
+
+def pattern(n):
+    for i in range(n):
+        print("*" * (n - i))
+    return n - 1
+
+pattern(a)
+
+n=int(input("enter the inch reading "))
+def conv(a):
+    inch=a*2.54
+    return inch
+print(f"the cm reading is {conv(n)} ")
