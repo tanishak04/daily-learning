@@ -9,3 +9,4 @@ class emp():
 Tan=emp("tan","cricket","up" )
 Tan.state="uk"
 print(Tan.name,Tan.sport,Tan.state)
+#This is a python code for my practice.
